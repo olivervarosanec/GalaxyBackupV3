@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyBackup", "GalaxyBackup.csproj", "{E9450FA4-B743-4ED4-9B37-3FB832A65958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aaGalaxyBackup", "..\aaGalaxyBackup\aaGalaxyBackup.csproj", "{8391B265-FB23-4FC2-AE65-8E3993ECB7CD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://olivervar.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\aaGalaxyBackup\\aaGalaxyBackup.csproj
+		SccProjectName1 = ../aaGalaxyBackup
+		SccLocalPath1 = ..\\aaGalaxyBackup
+		SccProjectUniqueName2 = GalaxyBackup.csproj
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9450FA4-B743-4ED4-9B37-3FB832A65958}.Debug|x86.ActiveCfg = Debug|x86
+		{E9450FA4-B743-4ED4-9B37-3FB832A65958}.Debug|x86.Build.0 = Debug|x86
+		{E9450FA4-B743-4ED4-9B37-3FB832A65958}.Release|x86.ActiveCfg = Release|x86
+		{E9450FA4-B743-4ED4-9B37-3FB832A65958}.Release|x86.Build.0 = Release|x86
+		{8391B265-FB23-4FC2-AE65-8E3993ECB7CD}.Debug|x86.ActiveCfg = Debug|x86
+		{8391B265-FB23-4FC2-AE65-8E3993ECB7CD}.Debug|x86.Build.0 = Debug|x86
+		{8391B265-FB23-4FC2-AE65-8E3993ECB7CD}.Release|x86.ActiveCfg = Release|x86
+		{8391B265-FB23-4FC2-AE65-8E3993ECB7CD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
