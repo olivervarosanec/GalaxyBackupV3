@@ -1,1 +1,13 @@
 C:\source\GalaxyBackupV3\GalaxyBackup\bin\Debug\GalaxyBackup.exe.config
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\README.txt
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\startBackup.bat
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\GalaxyBackup.exe.config
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\GalaxyBackup.exe
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\GalaxyBackup.pdb
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\aaGalaxyBackup.dll
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\bin\Debug\aaGalaxyBackup.pdb
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\obj\x86\Debug\GalaxyBackup.csprojAssemblyReference.cache
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\obj\x86\Debug\GalaxyBackup.csproj.CoreCompileInputs.cache
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\obj\x86\Debug\GalaxyBackup.csproj.CopyComplete
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\obj\x86\Debug\GalaxyBackup.exe
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\GalaxyBackup\obj\x86\Debug\GalaxyBackup.pdb

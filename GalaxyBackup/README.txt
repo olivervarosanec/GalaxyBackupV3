@@ -6,7 +6,7 @@
 	GalaxyBackup.exe <GalaxyName> <Foldername> <BackupsOnline> <isDevLicense>
 		a. Galaxyname: Name of the Galaxy
 		b. Path of Foldername where the Backup will be created, if the Path contains space put it in quotation marks
-		c. How many Backups you wish to have online, for example 14 means all backups older than 14 days will be automatically deleted
+		c. How many Backups you wish to have online, for example 14 means all backups older than 14 days will be automatically deleted (if you put 0 ALL YOUR BACKUPS will be deleted)
 		d. If you have a License with more than 1 Dev Count set this Parameter to 1
 
 3. The Commandline Tool must run as Administrator

@@ -1,0 +1,6 @@
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\bin\Debug\aaGalaxyBackup.dll
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\bin\Debug\aaGalaxyBackup.pdb
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\obj\x86\Debug\aaGalaxyBackup.csprojAssemblyReference.cache
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\obj\x86\Debug\aaGalaxyBackup.csproj.CoreCompileInputs.cache
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\obj\x86\Debug\aaGalaxyBackup.dll
+C:\Users\oliverv\Source\Repos\GalaxyBackupV3\aaGalaxyBackup\obj\x86\Debug\aaGalaxyBackup.pdb
