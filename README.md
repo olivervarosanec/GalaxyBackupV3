@@ -1,6 +1,7 @@
 # GalaxyBackupV3
 
-README.txt
+Utility for creating automated Backups of Aveva System Platform Galaxy (Wonderware Application Server)
+
 GalaxyBackup v4.1.1.0
 
 1. execute the Backup Tool only on the GR Node.
