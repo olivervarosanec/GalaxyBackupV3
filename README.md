@@ -42,3 +42,5 @@ For questions or support, please contact:
 
 📧 **oliver.varosanec@aveva.com**
 
+## Disclaimer
+Please note: This is not an official AVEVA utility.
