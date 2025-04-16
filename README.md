@@ -24,6 +24,6 @@ Example: "C:\Program Files (x86)\ArchestrA\aaBackup\GalaxyBackup.exe" "Coffee_St
 
 
 Tested on following Versions:
-Application Server 2017 and 2014
+Application Server 2017 U3, 2020 and 2023 R2
 
 Questions contact oliver.varosanec@aveva.com
