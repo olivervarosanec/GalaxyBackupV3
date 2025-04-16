@@ -1,29 +1,44 @@
 # GalaxyBackupV3
 
-Utility for creating automated Backups of Aveva System Platform Galaxy (Wonderware Application Server)
+Utility for creating automated backups of **AVEVA System Platform Galaxy (Wonderware Application Server)**.
 
-GalaxyBackup v4.1.1.0
+## Version
+**GalaxyBackup v4.1.1.0**
 
-1. execute the Backup Tool only on the GR Node.
+## Requirements
+- Execute the backup tool only on the GR Node.
+- The command-line tool **must** be run as Administrator.
 
-2. start the Commandline Tool with 4 Parameters (Edit the startBackup.bat file)
-	GalaxyBackup.exe <GalaxyName> <Foldername> <BackupsOnline> <isDevLicense>
-		a. Galaxyname: Name of the Galaxy
-		b. Path of Foldername where the Backup will be created, if the Path contains space put it in quotation marks
-		c. How many Backups you wish to have online, for example 14 means all backups older than 14 days will be automatically deleted (if you put 0 ALL YOUR BACKUPS will be deleted)
-		d. If you have a License with more than 1 Dev Count set this Parameter to 1
+## Usage
+Start the command-line tool with four parameters (edit the `startBackup.bat` file):
 
-3. The Commandline Tool must run as Administrator
+```
+GalaxyBackup.exe <GalaxyName> <BackupPath> <BackupRetentionDays> <DevCountLicense>
+```
 
-4. the Backup will be created and the cab File appear in the Folder
+- **GalaxyName:** Name of the Galaxy
+- **BackupPath:** Path of the folder where the backup will be created. Enclose the path in quotation marks if it contains spaces.
+- **BackupRetentionDays:** Number of backups you wish to keep. Backups older than this number of days will be automatically deleted. *(Important: Setting this value to 0 will delete ALL YOUR BACKUPS.)*
+- **DevCountLicense:** Set this parameter to `1` if you have a license with more than one Dev Count.
 
-5. These files have to stay in the GR node, and also is in the GR to create the Scheduled Task
+### Example
+```batch
+"C:\Program Files (x86)\ArchestrA\aaBackup\GalaxyBackup.exe" "Coffee_StandardSolution" "\\chorrl0043\PATA\Coffee Standard Solution - Development\00 GalaxyBackup\IAS 2012 R2" 90 1
+```
 
+## Backup Output
+The backup process generates `.cab` files that will be placed in the specified backup folder.
 
-Example: "C:\Program Files (x86)\ArchestrA\aaBackup\GalaxyBackup.exe" "Coffee_StandardSolution" "\\chorrl0043\PATA\Coffee Standard Solution - Development\00 GalaxyBackup\IAS 2012 R2" 90 1
+- Ensure these files remain on the GR Node.
+- Schedule automated backups via Windows Scheduled Task on the GR Node.
 
+## Tested Versions
+- Application Server 2017 U3
+- Application Server 2020
+- Application Server 2023 R2
 
-Tested on following Versions:
-Application Server 2017 U3, 2020 and 2023 R2
+## Support
+For questions or support, please contact:
 
-Questions contact oliver.varosanec@aveva.com
+📧 **oliver.varosanec@aveva.com**
+
