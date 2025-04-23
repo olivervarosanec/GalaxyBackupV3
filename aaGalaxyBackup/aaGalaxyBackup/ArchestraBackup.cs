@@ -26,7 +26,7 @@
             try
             {
                 string machineName = Environment.MachineName;
-                this.myGRAccess = new GRAccessAppClass();
+                this.myGRAccess = new GRAccessApp();
                 IGalaxies galaxies = this.myGRAccess.QueryGalaxies(machineName);
                 int id = Process.GetCurrentProcess().Id;
                 IGalaxy galaxy = galaxies[this.galaxyName];
